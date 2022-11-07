@@ -1,0 +1,2 @@
+# relational_databases_freecodecamp
+Training for the freecodecamp certification
