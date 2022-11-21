@@ -49,7 +49,7 @@ SET default_table_access_method = heap;
 
 CREATE TABLE public.users (
     user_id integer NOT NULL,
-    name character varying(50) NOT NULL,
+    name character varying(45) NOT NULL,
     games_played integer DEFAULT 0,
     best_game integer DEFAULT 1000
 );
@@ -90,12 +90,11 @@ ALTER TABLE ONLY public.users ALTER COLUMN user_id SET DEFAULT nextval('public.u
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.users VALUES (12, 'KI', 0, 1000);
-INSERT INTO public.users VALUES (13, 'K', 3, 3);
-INSERT INTO public.users VALUES (15, 'user_1667462819882', 2, 65);
-INSERT INTO public.users VALUES (14, 'user_1667462819883', 5, 28);
-INSERT INTO public.users VALUES (17, 'user_1667462877048', 2, 820);
-INSERT INTO public.users VALUES (16, 'user_1667462877049', 5, 59);
+INSERT INTO public.users VALUES (12, 'AK', 0, 1000);
+INSERT INTO public.users VALUES (15, 'user_1667462819882', 2, 86);
+INSERT INTO public.users VALUES (14, 'user_1667462819883', 5, 22);
+INSERT INTO public.users VALUES (17, 'user_1667462877048', 2, 710);
+INSERT INTO public.users VALUES (16, 'user_1667462877049', 5, 61);
 
 
 --
